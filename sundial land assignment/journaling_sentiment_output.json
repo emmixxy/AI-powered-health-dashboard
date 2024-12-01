@@ -1,0 +1,13 @@
+{
+    "sentiment_results": [
+        {
+            "date": "2024-11-22",
+            "sentiment": "negative"
+        },
+        {
+            "date": "2024-11-21",
+            "sentiment": "positive"
+        }
+    ],
+    "summary": "Your journal entries this week were 50.0% positive, 50.0% negative, 0.0% neutral."
+}

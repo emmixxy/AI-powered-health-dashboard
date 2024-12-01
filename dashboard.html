@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .insight {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Health Dashboard</h1>
+
+    <!-- Fitness Data Section -->
+    <div class="section">
+        <h2>Fitness Activity</h2>
+        <ul>
+            {% for entry in fitness_data['fitness_recommendations'] %}
+                <li>{{ entry['date'] }}: 
+                    Steps: {{ entry['steps'] }} | 
+                    Heart Rate: {{ entry['heart_rate'] }} | 
+                    Recommendation: {{ entry['recommendation'] }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Sleep Data Section -->
+    <div class="section">
+        <h2>Sleep Analysis</h2>
+        <ul>
+            {% for entry in sleep_data['sleep_analysis'] %}
+                <li>{{ entry['date'] }}: 
+                    Sleep Hours: {{ entry['sleep_hours'] }} | 
+                    Disturbances: {{ entry['disturbances'] }} | 
+                    Recommendation: {{ entry['recommendation'] }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Journaling Sentiment Section -->
+    <div class="section">
+        <h2>Journal Sentiment</h2>
+        <ul>
+            {% for entry in journal_data['sentiment_results'] %}
+                <li>{{ entry['date'] }}: Sentiment: {{ entry['sentiment'] }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Aggregated Insights Section -->
+    <div class="section">
+        <h2>Insights</h2>
+        {% for insight in insights %}
+            <div class="insight">
+                <p>{{ insight }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

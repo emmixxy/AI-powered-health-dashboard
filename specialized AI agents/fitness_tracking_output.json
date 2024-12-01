@@ -1,0 +1,17 @@
+{
+    "user_id": "12345",
+    "sleep_analysis": [
+        {
+            "date": "2024-11-22",
+            "sleep_hours": 6.5,
+            "disturbances": 2,
+            "recommendation": "Your average sleep time has dropped below 7 hours. Consider a consistent bedtime routine."
+        },
+        {
+            "date": "2024-11-21",
+            "sleep_hours": 7.2,
+            "disturbances": 1,
+            "recommendation": "You had a good sleep. Keep up the positive habits."
+        }
+    ]
+}
