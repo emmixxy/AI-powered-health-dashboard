@@ -1,0 +1,54 @@
+{
+    "user_id": "12345",
+    "analysis_date": "2025-10-24T13:21:59.315790",
+    "holistic_insights": [
+        "Great synergy between your mental and physical well-being! This positive cycle supports overall health."
+    ],
+    "correlation_analysis": {
+        "fitness_sleep": {
+            "strength": "strong_positive",
+            "description": "High fitness levels correlate with good sleep quality"
+        },
+        "mood_fitness": {
+            "strength": "strong_positive",
+            "description": "Positive mood correlates with high fitness levels"
+        }
+    },
+    "priority_recommendations": [],
+    "wellness_score": 85.06350364963504,
+    "trend_analysis": {
+        "fitness": "increasing",
+        "sleep": "improving",
+        "mood": "insufficient_data",
+        "overall": "improving"
+    },
+    "action_plan": [
+        {
+            "week": 1,
+            "focus": "Foundation",
+            "actions": [
+                "Establish consistent sleep schedule (same bedtime and wake time)",
+                "Start with 10-minute daily walks",
+                "Practice 5 minutes of daily gratitude journaling"
+            ]
+        },
+        {
+            "week": "2-4",
+            "focus": "Building Habits",
+            "actions": [
+                "Increase daily steps to 7,000-8,000",
+                "Implement sleep hygiene practices",
+                "Add 10 minutes of mindfulness or meditation"
+            ]
+        },
+        {
+            "week": "2+ months",
+            "focus": "Optimization",
+            "actions": [
+                "Aim for 10,000 daily steps",
+                "Maintain 7-9 hours of quality sleep",
+                "Develop stress management techniques"
+            ]
+        }
+    ]
+}

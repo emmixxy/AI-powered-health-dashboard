@@ -1,0 +1,59 @@
+{
+    "user_id": "12345",
+    "analysis_date": "2025-10-24T13:21:59.293446",
+    "sleep_analysis": [
+        {
+            "date": "2024-11-22",
+            "sleep_hours": 6.5,
+            "quality_score": "good",
+            "adequacy": "borderline"
+        },
+        {
+            "date": "2024-11-21",
+            "sleep_hours": 7.2,
+            "quality_score": "excellent",
+            "adequacy": "adequate"
+        }
+    ],
+    "sleep_patterns": {
+        "average_duration": 6.85,
+        "duration_consistency": 0.948905109489051,
+        "quality_trend": "improving",
+        "sleep_efficiency": 91.33333333333333,
+        "optimal_sleep_days": 1,
+        "insufficient_sleep_days": 0,
+        "excessive_sleep_days": 0
+    },
+    "sleep_quality_metrics": {
+        "overall_quality_score": 89.41666666666666,
+        "quality_distribution": {
+            "excellent": 1,
+            "good": 1,
+            "fair": 0,
+            "poor": 0
+        },
+        "sleep_score": 78.46715328467153,
+        "recovery_index": 90.66666666666667,
+        "sleep_debt": 1.2999999999999998
+    },
+    "recommendations": [
+        {
+            "date": "2024-11-22",
+            "recommendation": "Excellent sleep habits! Continue maintaining your current sleep routine.",
+            "priority": "low",
+            "sleep_hours": 6.5,
+            "quality_score": "good"
+        },
+        {
+            "date": "2024-11-21",
+            "recommendation": "Excellent sleep habits! Continue maintaining your current sleep routine.",
+            "priority": "low",
+            "sleep_hours": 7.2,
+            "quality_score": "excellent"
+        }
+    ],
+    "sleep_insights": [
+        "You're getting less sleep than recommended. Even small increases in sleep duration can improve your daily performance.",
+        "Good sleep consistency! Maintaining a regular sleep schedule helps regulate your body's internal clock."
+    ]
+}

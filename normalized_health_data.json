@@ -1,0 +1,41 @@
+{
+    "user_id": "12345",
+    "data_source": "mock_data",
+    "last_updated": "2025-10-24T13:21:59.289896",
+    "metrics": [
+        {
+            "date": "2024-11-22",
+            "physical_activity": {
+                "steps": 8500,
+                "heart_rate": 75,
+                "hrv": 45
+            },
+            "sleep": {
+                "duration_hours": 6.5,
+                "quality_score": "good"
+            },
+            "derived_metrics": {
+                "activity_level": "moderate",
+                "heart_rate_zone": "normal",
+                "sleep_adequacy": "borderline"
+            }
+        },
+        {
+            "date": "2024-11-21",
+            "physical_activity": {
+                "steps": 9500,
+                "heart_rate": 72,
+                "hrv": 50
+            },
+            "sleep": {
+                "duration_hours": 7.2,
+                "quality_score": "excellent"
+            },
+            "derived_metrics": {
+                "activity_level": "moderate",
+                "heart_rate_zone": "normal",
+                "sleep_adequacy": "adequate"
+            }
+        }
+    ]
+}

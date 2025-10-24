@@ -1,0 +1,65 @@
+{
+    "user_id": "12345",
+    "analysis_date": "2025-10-24T13:21:59.306484",
+    "sentiment_results": [
+        {
+            "date": "2024-11-22",
+            "sentiment": "positive",
+            "sentiment_scores": {
+                "neg": 0.113,
+                "neu": 0.692,
+                "pos": 0.194,
+                "compound": 0.1608
+            },
+            "emotions_detected": [
+                "anxiety"
+            ],
+            "emotional_intensity": "low",
+            "insights": [],
+            "text_length": 17,
+            "readability_score": 100
+        },
+        {
+            "date": "2024-11-21",
+            "sentiment": "positive",
+            "sentiment_scores": {
+                "neg": 0.0,
+                "neu": 0.552,
+                "pos": 0.448,
+                "compound": 0.9184
+            },
+            "emotions_detected": [
+                "gratitude"
+            ],
+            "emotional_intensity": "high",
+            "insights": [
+                "Great to see gratitude in your writing! This practice can improve overall well-being."
+            ],
+            "text_length": 20,
+            "readability_score": 100
+        }
+    ],
+    "emotional_insights": [
+        "You've been experiencing anxiety frequently. Consider mindfulness or relaxation techniques.",
+        "Great job practicing gratitude! This positive habit can significantly improve your well-being."
+    ],
+    "sentiment_trends": {
+        "trend": "insufficient_data"
+    },
+    "wellness_recommendations": [
+        "For managing anxiety, try deep breathing exercises or meditation.",
+        "Consider establishing a consistent daily routine to reduce uncertainty."
+    ],
+    "summary": {
+        "total_entries": 2,
+        "sentiment_distribution": {
+            "positive_percentage": 100.0,
+            "negative_percentage": 0.0,
+            "neutral_percentage": 0.0
+        },
+        "emotional_intensity": {
+            "high_intensity_percentage": 50.0
+        },
+        "overall_sentiment": "positive"
+    }
+}

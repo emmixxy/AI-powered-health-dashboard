@@ -1,0 +1,45 @@
+{
+    "user_id": "12345",
+    "analysis_date": "2025-10-24T13:21:59.293446",
+    "fitness_recommendations": [
+        {
+            "date": "2024-11-22",
+            "steps": 8500,
+            "heart_rate": 75,
+            "activity_level": "moderate",
+            "recommendation": "Good activity level! Try to add some strength training or increase your walking pace.",
+            "goal_progress": {
+                "steps_progress": 85.0,
+                "goal_status": "in_progress"
+            }
+        },
+        {
+            "date": "2024-11-21",
+            "steps": 9500,
+            "heart_rate": 72,
+            "activity_level": "moderate",
+            "recommendation": "Good activity level! Try to add some strength training or increase your walking pace.",
+            "goal_progress": {
+                "steps_progress": 95.0,
+                "goal_status": "in_progress"
+            }
+        }
+    ],
+    "trends": {
+        "steps_trend": "increasing",
+        "heart_rate_trend": "stable",
+        "consistency_score": 0.9444444444444444,
+        "improvement_rate": 0.11764705882352941
+    },
+    "performance_metrics": {
+        "average_steps": 9000.0,
+        "max_steps": 9500,
+        "min_steps": 8500,
+        "average_heart_rate": 73.5,
+        "fitness_score": 81.5,
+        "goal_achievement_rate": 0.0
+    },
+    "health_insights": [
+        "Excellent activity level! Your step count indicates good cardiovascular health."
+    ]
+}
