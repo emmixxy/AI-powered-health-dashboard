@@ -263,7 +263,9 @@ For questions or issues:
 2. Review the API endpoints
 3. Examine the sample data structures
 4. Test individual components
+or reach me via my email: kosokogbemi@gmail.com
 
 ---
 
 **Built with ❤️ for health and wellness**
+
